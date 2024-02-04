@@ -21,7 +21,7 @@ public class FavouriteMovieEntity {
     strategy = GenerationType.AUTO
     )
     private long movieId;
-    private String type;
-    private String name;
-    private String url;
+    private String movieType;
+    private String movieName;
+    private String movieUrl;
 }

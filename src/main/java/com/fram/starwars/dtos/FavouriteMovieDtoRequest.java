@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Data
 public class FavouriteMovieDtoRequest {
-    private String type;
-    private String name;
-    private String url;
+    private String movieTpe;
+    private String movieName;
+    private String movieUrl;
 }
